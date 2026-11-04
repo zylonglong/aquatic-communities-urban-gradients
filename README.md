@@ -41,4 +41,3 @@ The manuscript uses main Figs. 1-6 and Extended Data Fig. 1. Archived scripts ma
 Authors and proposed version 1.0.0 are in CITATION.cff and .zenodo.json. No release DOI is claimed yet. Author-owned code is MIT licensed. Third-party data retain their original terms, documented in THIRD_PARTY_DATA.md, including GLORICH CC BY-NC-SA 4.0 and OpenStreetMap ODbL 1.0.
 
 Repository preparation status: sources and portable entry points are being prepared for review. A GitHub Release and Zenodo software DOI will follow verification of the intended release contents.
-
