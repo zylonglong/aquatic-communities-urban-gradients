@@ -38,6 +38,8 @@ The manuscript uses main Figs. 1-6 and Extended Data Fig. 1. Archived scripts ma
 
 ## Citation and reuse
 
-The archive creator is Yu Zhang (family name Zhang, given name Yu), as confirmed by the depositor. Creator metadata and version 1.0.0 are in CITATION.cff and .zenodo.json. The software DOI is assigned separately when Zenodo archives the GitHub release. Author-owned code is MIT licensed. Third-party data retain their original terms, documented in THIRD_PARTY_DATA.md, including GLORICH CC BY-NC-SA 4.0 and OpenStreetMap ODbL 1.0.
+The archive creator is Yu Zhang (family name Zhang, given name Yu), as confirmed by the depositor. Creator metadata and version 1.0.0 are in CITATION.cff and .zenodo.json. The fixed software archive is [version 1.0.0](https://doi.org/10.5281/zenodo.23944008); the separate dataset DOI is [10.5281/zenodo.23942296](https://doi.org/10.5281/zenodo.23942296). Author-owned code is MIT licensed. Third-party data retain their original terms, documented in THIRD_PARTY_DATA.md, including GLORICH CC BY-NC-SA 4.0 and OpenStreetMap ODbL 1.0.
 
-Version 1.0.0 archives the sources and portable entry points described above. Cite the fixed software-release DOI once assigned by Zenodo, together with the separate dataset DOI. Execution scope and configuration requirements are documented in docs/reproduction_status.md.
+Version 1.0.0 archives the sources and portable entry points described above. Cite the fixed software-release DOI [10.5281/zenodo.23944008](https://doi.org/10.5281/zenodo.23944008), together with the separate dataset DOI. Execution scope and configuration requirements are documented in docs/reproduction_status.md.
+
+The v1.0.0 release archives source commit `da5fcdd4c1f2afbdf86b185961c702eb8e801233`. The main branch subsequently adds the assigned software DOI to citation metadata; those metadata additions do not change the archived release.
