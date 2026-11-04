@@ -4,7 +4,7 @@ Custom data-processing, statistical-analysis and plotting sources for the associ
 
 ## Data
 
-Scientific data are prepared as a separate Zenodo dataset, version 1.0.0. Its reserved DOI is [10.5281/zenodo.23942296](https://doi.org/10.5281/zenodo.23942296); the record remains a draft at this preparation stage, so the DOI does not yet establish public data availability. The dataset contains the four Supplementary Data workbooks, seven figure source-data workbooks, and Regional_Input_Data.zip (survey records, taxon annotations, native analysis inputs and the inferential water-quality monthly table). After publication, download the workbooks to one directory for the demo below and extract the regional ZIP for upstream input provenance. This software repository does not mirror the third-party raw spatial databases.
+Scientific data are publicly available as a separate Zenodo dataset: [Data for the associated study, version 1.0.0](https://doi.org/10.5281/zenodo.23942296), published on 4 November 2026. The dataset contains the four Supplementary Data workbooks, seven figure source-data workbooks, and Regional_Input_Data.zip (survey records, taxon annotations, native analysis inputs and the inferential water-quality monthly table). Download the workbooks to one directory for the demo below and extract the regional ZIP for upstream input provenance. This software repository does not mirror the third-party raw spatial databases.
 
 ## Try the portable demo
 
@@ -38,6 +38,6 @@ The manuscript uses main Figs. 1-6 and Extended Data Fig. 1. Archived scripts ma
 
 ## Citation and reuse
 
-The archive creator is Yu Zhang (family name Zhang, given name Yu), as confirmed by the depositor. Creator metadata and version 1.0.0 are in CITATION.cff and .zenodo.json. No release DOI is claimed yet. Author-owned code is MIT licensed. Third-party data retain their original terms, documented in THIRD_PARTY_DATA.md, including GLORICH CC BY-NC-SA 4.0 and OpenStreetMap ODbL 1.0.
+The archive creator is Yu Zhang (family name Zhang, given name Yu), as confirmed by the depositor. Creator metadata and version 1.0.0 are in CITATION.cff and .zenodo.json. The software DOI is assigned separately when Zenodo archives the GitHub release. Author-owned code is MIT licensed. Third-party data retain their original terms, documented in THIRD_PARTY_DATA.md, including GLORICH CC BY-NC-SA 4.0 and OpenStreetMap ODbL 1.0.
 
-Repository preparation status: sources and portable entry points are being prepared for review. A GitHub Release and Zenodo software DOI will follow verification of the intended release contents.
+Version 1.0.0 archives the sources and portable entry points described above. Cite the fixed software-release DOI once assigned by Zenodo, together with the separate dataset DOI. Execution scope and configuration requirements are documented in docs/reproduction_status.md.
