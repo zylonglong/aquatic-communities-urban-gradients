@@ -1,0 +1,788 @@
+{
+  "scope": "78 input-based Spearman coefficient recalculations; no resampling or full pipeline rerun",
+  "checks": 78,
+  "passed": 78,
+  "maximum_absolute_difference": 5.828670879282072e-16,
+  "results": [
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 200,
+      "n": 35,
+      "recomputed_rho": 0.16382653295472108,
+      "published_rho": 0.163826532954721,
+      "absolute_difference": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 500,
+      "n": 35,
+      "recomputed_rho": 0.24868531072664424,
+      "published_rho": 0.248685310726644,
+      "absolute_difference": 2.498001805406602e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 1000,
+      "n": 35,
+      "recomputed_rho": 0.23325644204084003,
+      "published_rho": 0.23325644204084,
+      "absolute_difference": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 1500,
+      "n": 35,
+      "recomputed_rho": 0.3242867672870849,
+      "published_rho": 0.324286767287085,
+      "absolute_difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 2000,
+      "n": 35,
+      "recomputed_rho": 0.32063994377953114,
+      "published_rho": 0.320639943779531,
+      "absolute_difference": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 2500,
+      "n": 35,
+      "recomputed_rho": 0.2899224688505209,
+      "published_rho": 0.289922468850521,
+      "absolute_difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 3000,
+      "n": 35,
+      "recomputed_rho": 0.3140476089774148,
+      "published_rho": 0.314047608977415,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 3500,
+      "n": 35,
+      "recomputed_rho": 0.3019850389139679,
+      "published_rho": 0.301985038913968,
+      "absolute_difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 4000,
+      "n": 35,
+      "recomputed_rho": 0.36594471273875623,
+      "published_rho": 0.365944712738756,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 4500,
+      "n": 35,
+      "recomputed_rho": 0.3336843509411656,
+      "published_rho": 0.333684350941166,
+      "absolute_difference": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 5000,
+      "n": 35,
+      "recomputed_rho": 0.26776100292000216,
+      "published_rho": 0.267761002920002,
+      "absolute_difference": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 5500,
+      "n": 35,
+      "recomputed_rho": 0.15513026151363143,
+      "published_rho": 0.155130261513631,
+      "absolute_difference": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Urban construction",
+      "range_m": 6000,
+      "n": 35,
+      "recomputed_rho": 0.14951976380970264,
+      "published_rho": 0.149519763809703,
+      "absolute_difference": 3.608224830031759e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 200,
+      "n": 35,
+      "recomputed_rho": 0.22212091677352833,
+      "published_rho": 0.222120916773528,
+      "absolute_difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 500,
+      "n": 35,
+      "recomputed_rho": -0.08177300403476231,
+      "published_rho": -0.081773004034762,
+      "absolute_difference": 3.191891195797325e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 1000,
+      "n": 35,
+      "recomputed_rho": -0.1744864785921858,
+      "published_rho": -0.174486478592186,
+      "absolute_difference": 1.942890293094024e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 1500,
+      "n": 35,
+      "recomputed_rho": -0.07363778236406555,
+      "published_rho": -0.073637782364066,
+      "absolute_difference": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 2000,
+      "n": 35,
+      "recomputed_rho": -0.05540366482629694,
+      "published_rho": -0.055403664826297,
+      "absolute_difference": 6.245004513516506e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 2500,
+      "n": 35,
+      "recomputed_rho": -0.07055200862690471,
+      "published_rho": -0.070552008626905,
+      "absolute_difference": 2.914335439641036e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 3000,
+      "n": 35,
+      "recomputed_rho": -0.07405856969186021,
+      "published_rho": -0.07405856969186,
+      "absolute_difference": 2.0816681711721685e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 3500,
+      "n": 35,
+      "recomputed_rho": -0.117259402012112,
+      "published_rho": -0.117259402012112,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 4000,
+      "n": 35,
+      "recomputed_rho": 0.08191326647736054,
+      "published_rho": 0.08191326647736,
+      "absolute_difference": 5.412337245047638e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 4500,
+      "n": 35,
+      "recomputed_rho": -0.0851393026571196,
+      "published_rho": -0.08513930265712,
+      "absolute_difference": 4.0245584642661925e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 5000,
+      "n": 35,
+      "recomputed_rho": -0.11178916675078142,
+      "published_rho": -0.111789166750782,
+      "absolute_difference": 5.828670879282072e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 5500,
+      "n": 35,
+      "recomputed_rho": -0.09440323497088769,
+      "published_rho": -0.094403234970888,
+      "absolute_difference": 3.0531133177191805e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Direct human activity",
+      "range_m": 6000,
+      "n": 35,
+      "recomputed_rho": -0.11711913956951378,
+      "published_rho": -0.117119139569514,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 200,
+      "n": 35,
+      "recomputed_rho": -0.39876612430673974,
+      "published_rho": -0.39876612430674,
+      "absolute_difference": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 500,
+      "n": 35,
+      "recomputed_rho": -0.5043837435831995,
+      "published_rho": -0.5043837435832,
+      "absolute_difference": 5.551115123125783e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 1000,
+      "n": 35,
+      "recomputed_rho": -0.43369147251369655,
+      "published_rho": -0.433691472513696,
+      "absolute_difference": 5.551115123125783e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 1500,
+      "n": 35,
+      "recomputed_rho": -0.41489630520553505,
+      "published_rho": -0.414896305205535,
+      "absolute_difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 2000,
+      "n": 35,
+      "recomputed_rho": -0.43228884808771434,
+      "published_rho": -0.432288848087714,
+      "absolute_difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 2500,
+      "n": 35,
+      "recomputed_rho": -0.28571459557257434,
+      "published_rho": -0.285714595572574,
+      "absolute_difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 3000,
+      "n": 35,
+      "recomputed_rho": -0.27856121100006515,
+      "published_rho": -0.278561211000065,
+      "absolute_difference": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 3500,
+      "n": 35,
+      "recomputed_rho": -0.15456921174323854,
+      "published_rho": -0.154569211743238,
+      "absolute_difference": 5.273559366969494e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 4000,
+      "n": 35,
+      "recomputed_rho": -0.11417362827495116,
+      "published_rho": -0.114173628274951,
+      "absolute_difference": 1.5265566588595902e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 4500,
+      "n": 35,
+      "recomputed_rho": -0.03310193645317994,
+      "published_rho": -0.03310193645318,
+      "absolute_difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 5000,
+      "n": 35,
+      "recomputed_rho": -0.13451168245169307,
+      "published_rho": -0.134511682451693,
+      "absolute_difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 5500,
+      "n": 35,
+      "recomputed_rho": -0.018795167308161494,
+      "published_rho": -0.018795167308161,
+      "absolute_difference": 4.926614671774132e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "Lake",
+      "driver": "Topography and geomorphology",
+      "range_m": 6000,
+      "n": 35,
+      "recomputed_rho": -0.0321200993549924,
+      "published_rho": -0.032120099354992,
+      "absolute_difference": 4.0245584642661925e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 200,
+      "n": 19,
+      "recomputed_rho": 0.09214568679958544,
+      "published_rho": 0.092145686799585,
+      "absolute_difference": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 500,
+      "n": 19,
+      "recomputed_rho": 0.1904344193858099,
+      "published_rho": 0.19043441938581,
+      "absolute_difference": 8.326672684688674e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 1000,
+      "n": 19,
+      "recomputed_rho": 0.21500660253236603,
+      "published_rho": 0.215006602532366,
+      "absolute_difference": 2.7755575615628914e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 1500,
+      "n": 19,
+      "recomputed_rho": 0.20710840080668727,
+      "published_rho": 0.207108400806687,
+      "absolute_difference": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 2000,
+      "n": 19,
+      "recomputed_rho": 0.3159280690271501,
+      "published_rho": 0.31592806902715,
+      "absolute_difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 2500,
+      "n": 19,
+      "recomputed_rho": 0.4063185998876958,
+      "published_rho": 0.406318599887696,
+      "absolute_difference": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 3000,
+      "n": 19,
+      "recomputed_rho": 0.41684953552193416,
+      "published_rho": 0.416849535521934,
+      "absolute_difference": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 3500,
+      "n": 19,
+      "recomputed_rho": 0.3150504910576302,
+      "published_rho": 0.31505049105763,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 4000,
+      "n": 19,
+      "recomputed_rho": 0.2852128400939549,
+      "published_rho": 0.285212840093955,
+      "absolute_difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 4500,
+      "n": 19,
+      "recomputed_rho": 0.36682759125930203,
+      "published_rho": 0.366827591259302,
+      "absolute_difference": 5.551115123125783e-17,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 5000,
+      "n": 19,
+      "recomputed_rho": 0.3431329860822658,
+      "published_rho": 0.343132986082266,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 5500,
+      "n": 19,
+      "recomputed_rho": 0.3317244724785076,
+      "published_rho": 0.331724472478508,
+      "absolute_difference": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Urban construction",
+      "range_m": 6000,
+      "n": 19,
+      "recomputed_rho": 0.329091738569948,
+      "published_rho": 0.329091738569948,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 200,
+      "n": 19,
+      "recomputed_rho": 0.034225540811274595,
+      "published_rho": 0.034225540811275,
+      "absolute_difference": 4.0245584642661925e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 500,
+      "n": 19,
+      "recomputed_rho": 0.05265467817119168,
+      "published_rho": 0.052654678171192,
+      "absolute_difference": 3.191891195797325e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 1000,
+      "n": 19,
+      "recomputed_rho": 0.07196139350062863,
+      "published_rho": 0.071961393500629,
+      "absolute_difference": 3.608224830031759e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 1500,
+      "n": 19,
+      "recomputed_rho": -0.10969724618998267,
+      "published_rho": -0.109697246189983,
+      "absolute_difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 2000,
+      "n": 19,
+      "recomputed_rho": -0.08688021898246627,
+      "published_rho": -0.086880218982466,
+      "absolute_difference": 2.636779683484747e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 2500,
+      "n": 19,
+      "recomputed_rho": -0.17814832781253184,
+      "published_rho": -0.178148327812532,
+      "absolute_difference": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 3000,
+      "n": 19,
+      "recomputed_rho": -0.17376043796493254,
+      "published_rho": -0.173760437964932,
+      "absolute_difference": 5.273559366969494e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 3500,
+      "n": 19,
+      "recomputed_rho": -0.23519089583132285,
+      "published_rho": -0.235190895831323,
+      "absolute_difference": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 4000,
+      "n": 19,
+      "recomputed_rho": -0.10530935634238336,
+      "published_rho": -0.105309356342383,
+      "absolute_difference": 3.608224830031759e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 4500,
+      "n": 19,
+      "recomputed_rho": -0.10267662243382378,
+      "published_rho": -0.102676622433824,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 5000,
+      "n": 19,
+      "recomputed_rho": -0.25713034506931937,
+      "published_rho": -0.257130345069319,
+      "absolute_difference": 3.885780586188048e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 5500,
+      "n": 19,
+      "recomputed_rho": -0.17639317187349213,
+      "published_rho": -0.176393171873492,
+      "absolute_difference": 1.3877787807814457e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Direct human activity",
+      "range_m": 6000,
+      "n": 19,
+      "recomputed_rho": -0.08336990710438683,
+      "published_rho": -0.083369907104387,
+      "absolute_difference": 1.8041124150158794e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 200,
+      "n": 19,
+      "recomputed_rho": -0.35103118780794457,
+      "published_rho": -0.351031187807944,
+      "absolute_difference": 5.551115123125783e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 500,
+      "n": 19,
+      "recomputed_rho": -0.4159719575524143,
+      "published_rho": -0.415971957552414,
+      "absolute_difference": 2.7755575615628914e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 1000,
+      "n": 19,
+      "recomputed_rho": -0.5739359920659893,
+      "published_rho": -0.573935992065989,
+      "absolute_difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 1500,
+      "n": 19,
+      "recomputed_rho": -0.49144366293112235,
+      "published_rho": -0.491443662931122,
+      "absolute_difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 2000,
+      "n": 19,
+      "recomputed_rho": -0.5625274784622312,
+      "published_rho": -0.562527478462231,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 2500,
+      "n": 19,
+      "recomputed_rho": -0.5835893497307078,
+      "published_rho": -0.583589349730708,
+      "absolute_difference": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 3000,
+      "n": 19,
+      "recomputed_rho": -0.5932427073954263,
+      "published_rho": -0.593242707395426,
+      "absolute_difference": 3.3306690738754696e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 3500,
+      "n": 19,
+      "recomputed_rho": -0.63273371602382,
+      "published_rho": -0.63273371602382,
+      "absolute_difference": 0.0,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 4000,
+      "n": 19,
+      "recomputed_rho": -0.6458973855666179,
+      "published_rho": -0.645897385566618,
+      "absolute_difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 4500,
+      "n": 19,
+      "recomputed_rho": -0.5493638089194331,
+      "published_rho": -0.549363808919433,
+      "absolute_difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 5000,
+      "n": 19,
+      "recomputed_rho": -0.5098728002910394,
+      "published_rho": -0.509872800291039,
+      "absolute_difference": 4.440892098500626e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 5500,
+      "n": 19,
+      "recomputed_rho": -0.6213252024200618,
+      "published_rho": -0.621325202420062,
+      "absolute_difference": 1.1102230246251565e-16,
+      "passed": true
+    },
+    {
+      "water_body_type": "River",
+      "driver": "Topography and geomorphology",
+      "range_m": 6000,
+      "n": 19,
+      "recomputed_rho": -0.5353225614071154,
+      "published_rho": -0.535322561407115,
+      "absolute_difference": 4.440892098500626e-16,
+      "passed": true
+    }
+  ]
+}
