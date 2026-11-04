@@ -1,0 +1,47 @@
+{
+  "title": "Analysis code for Aquatic communities and water quality encode urban environmental gradients at contrasting spatial scales",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Zhang, Yu"
+    },
+    {
+      "name": "Ma, Yichi"
+    },
+    {
+      "name": "Liu, Wang"
+    },
+    {
+      "name": "Hou, Yunxia"
+    },
+    {
+      "name": "Gong, Xiufang"
+    },
+    {
+      "name": "Li, Hao"
+    },
+    {
+      "name": "Tang, Yi"
+    },
+    {
+      "name": "Liu, Hongqi"
+    },
+    {
+      "name": "Zha, Jinmiao"
+    },
+    {
+      "name": "Ma, Xufa"
+    }
+  ],
+  "description": "Custom analysis and plotting code for the associated urban freshwater study. The repository contains regional and global analysis sources, upstream feature-processing sources, a portable input-based reproduction of the 78 regional water-quality correlations, and a table-verification utility. Scientific datasets are deposited separately and retain source-specific licences. See README.md and docs/reproduction_status.md for tested entry points and the remaining path and input requirements of archived scripts.",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "freshwater ecology",
+    "urbanisation",
+    "community ecology",
+    "spatial scale",
+    "water quality"
+  ]
+}
