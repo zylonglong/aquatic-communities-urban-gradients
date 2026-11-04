@@ -3,9 +3,12 @@ message: "Please cite the archived release and the source datasets identified in
 type: software
 title: "Analysis code for Aquatic communities and water quality encode urban environmental gradients at contrasting spatial scales"
 version: 1.0.0
+date-released: 2026-11-04
 authors:
   - family-names: "Zhang"
     given-names: "Yu"
+    orcid: "https://orcid.org/0009-0005-2319-3655"
+    affiliation: "Huazhong Agricultural University"
 abstract: "Custom code for multiscale freshwater community and water-quality analyses. Scientific data are archived separately and retain source-specific reuse terms."
 keywords:
   - freshwater ecology
