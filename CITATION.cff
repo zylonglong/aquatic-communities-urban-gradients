@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "Please cite the archived release and the source datasets identified in THIRD_PARTY_DATA.md."
+type: software
+title: "Analysis code for Aquatic communities and water quality encode urban environmental gradients at contrasting spatial scales"
+version: 1.0.0
+authors:
+  - family-names: "Zhang"
+    given-names: "Yu"
+  - family-names: "Ma"
+    given-names: "Yichi"
+  - family-names: "Liu"
+    given-names: "Wang"
+  - family-names: "Hou"
+    given-names: "Yunxia"
+  - family-names: "Gong"
+    given-names: "Xiufang"
+  - family-names: "Li"
+    given-names: "Hao"
+  - family-names: "Tang"
+    given-names: "Yi"
+  - family-names: "Liu"
+    given-names: "Hongqi"
+  - family-names: "Zha"
+    given-names: "Jinmiao"
+  - family-names: "Ma"
+    given-names: "Xufa"
+abstract: "Custom code for multiscale freshwater community and water-quality analyses. Scientific data are archived separately and retain source-specific reuse terms."
+keywords:
+  - freshwater ecology
+  - urbanisation
+  - community ecology
+  - spatial scale
+  - water quality
+repository-code: https://github.com/zylonglong/aquatic-communities-urban-gradients
+license: MIT
