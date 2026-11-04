@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "creators": [
     {
-      "name": "Zhang, Yu"
+      "name": "Zhang, Yu",
+      "orcid": "0009-0005-2319-3655",
+      "affiliation": "Huazhong Agricultural University"
     }
   ],
   "description": "Custom analysis and plotting code for the associated urban freshwater study. The repository contains regional and global analysis sources, upstream feature-processing sources, a portable input-based reproduction of the 78 regional water-quality correlations, and a table-verification utility. Scientific datasets are deposited separately and retain source-specific licences. See README.md and docs/reproduction_status.md for tested entry points and the remaining path and input requirements of archived scripts.",
@@ -23,5 +25,7 @@
       "relation": "isSupplementTo",
       "resource_type": "dataset"
     }
-  ]
+  ],
+  "publication_date": "2026-11-04",
+  "language": "eng"
 }
