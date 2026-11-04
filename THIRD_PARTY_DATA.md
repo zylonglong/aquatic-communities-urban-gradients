@@ -1,0 +1,22 @@
+# Data provenance and source-specific reuse terms
+
+This is a collection of author-generated observations, analytical outputs and processed material from multiple public sources. Public accessibility does not transfer ownership. Retain the following citations and source-specific rights when reusing the relevant components. CC BY 4.0 for the authors' contributions and the MIT software licence do not override third-party terms.
+
+| Source | Version and persistent source | Reuse/attribution retained |
+|---|---|---|
+| Regional aquatic surveys and author-generated results | Survey observations and processed analytical outputs; Supplementary Data 1 and 4 | Author-owned portions: CC BY 4.0. Public-report and spatial-data components retain their original terms. |
+| GRQA | Virro et al., Global River Water Quality Archive v1.3, https://doi.org/10.5281/zenodo.7056647 | CC BY 4.0 in the publisher's DataCite rights record. Retain source identifiers and attribution to underlying providers where present. |
+| GLORICH | Hartmann, Lauerwald and Moosdorf (2019), https://doi.org/10.1594/PANGAEA.902360 | CC BY-NC-SA 4.0, as specified by PANGAEA. Applies to the processed conductivity observations and adaptations in Supplementary Data 2/3 and relevant Fig. 1 source material. Preserve the non-commercial and share-alike conditions; these observations are not relicensed under CC BY or MIT. |
+| Gridded GDPpc | Kummu, Kosonen and Masoumzadeh Sayyar, v4, https://doi.org/10.5281/zenodo.18429133; description https://doi.org/10.1038/s41597-025-04487-x | CC BY 4.0 in the DataCite rights record; cite both the dataset and description. |
+| FreshVerts | Miqueleiz et al., v1.0, https://doi.org/10.6084/m9.figshare.26950663.v2; https://doi.org/10.1038/s41597-025-05622-4 | CC BY 4.0, verified through the Figshare API. Retain the dataset and source-publication citations. |
+| Stream-insect diversity | Liu et al., https://doi.org/10.1038/s44185-025-00098-2; https://github.com/Guohao-Liu/diversity_global_aquatic_insect | Original repository carries Apache-2.0. Cite the original authors and retain notices applicable to reused materials. No source code from that repository is added by this packaging step. |
+| Global lake chemistry | Filazzola et al., https://doi.org/10.5063/F1RV0M1S; https://doi.org/10.1038/s41597-020-00648-2 | CC0 1.0 in the dataset EML metadata; scholarly attribution retained. |
+| OpenStreetMap / Geofabrik | Guangdong extract dated 15 April 2026; https://download.geofabrik.de/asia/china/guangdong.html | © OpenStreetMap contributors, https://www.openstreetmap.org/copyright, ODbL 1.0. Retain ODbL for derived database components, including OSM-derived predictor tables in Supplementary Data 1. Raw OSM vector extracts are not included. |
+| ESA WorldCover | 2021 v200, https://doi.org/10.5281/zenodo.7254221 | CC BY 4.0, verified from the dataset DataCite rights and https://esa-worldcover.org/en/data-access. © ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium. |
+| WorldPop | Global 2 R2025A v1, China 100-m constrained annual rasters | Use the release-specific licence and citation provided by WorldPop. https://data.worldpop.org/repo/prj/Global_2015_2030/R2025A/doc/Global2_Release_Statement_R2025A_v1.pdf . Raw rasters are not redistributed here. |
+| ASTER GDEM | V003, https://doi.org/10.5067/ASTER/ASTGTM.003 | Credit NASA/METI/AIST/Japan Spacesystems and U.S./Japan ASTER Science Team. Access original rasters through the cited archive and retain its usage conditions. Raw rasters are not redistributed here. |
+| Regional public water-quality reports | Provincial/municipal sources identified in the manuscript and Supplementary Notes | The workbooks contain analytical transcriptions/aggregates rather than copies of full reports. Retain the original source attribution and applicable source conditions. |
+
+Rights checked on 3 November 2026. For uses beyond an original source's permission, contact that rights holder. The repository does not claim a single blanket licence over all third-party database components.
+
+FishBase-derived trait values retain source rights. Current FishBase pages display CC BY-NC 4.0, while older API documentation lists CC BY-NC 3.0; confirm the licence of the actual 2021 snapshot used in this study. See https://fishbase.org/search.php and https://fishbaseapi.readme.io/reference/license . These values are not relicensed by the MIT software licence or the authors' data licence.
