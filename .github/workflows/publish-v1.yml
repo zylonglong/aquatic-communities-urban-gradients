@@ -1,0 +1,66 @@
+name: Publish research software v1.0.0
+on:
+  push:
+    branches: [publish-v1.0.0]
+    paths: [.github/workflows/publish-v1.yml]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Verify fixed source archive and publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_BODY: |
+            Analysis and plotting code for **Aquatic communities and water quality encode urban environmental gradients at contrasting spatial scales**.
+            
+            **Creator:** Yu Zhang (ORCID: https://orcid.org/0009-0005-2319-3655), Huazhong Agricultural University.
+            
+            **Version:** 1.0.0.
+            
+            **Input data:** https://doi.org/10.5281/zenodo.23942296 (separate public dataset; 15 files).
+            
+            The release contains regional and global analysis sources, upstream feature and water-quality processing sources, publication-figure scripts, environment notes and file checksums. Author-owned software is MIT licensed; input datasets retain the source-specific terms documented with the data record.
+            
+            The portable water-quality demo recomputes 78 regional Spearman coefficients from the analytical inputs, with all 78 matching the publication results. A separate utility checks 16 publication-workbook counts and values. Archived analysis scripts require the path, dependency and input configuration described in README.md and docs/reproduction_status.md; the complete legacy pipeline has not been validated from a clean download.
+            
+            The enabled Zenodo–GitHub integration should archive this fixed release and assign a separate software DOI. Cite that software DOI and the dataset DOI as distinct research outputs.
+        run: |
+          python3 - <<'PY'
+          import base64, csv, hashlib, io, json, os, urllib.request, urllib.error, zipfile
+          REPO = "zylonglong/aquatic-communities-urban-gradients"
+          TARGET = "da5fcdd4c1f2afbdf86b185961c702eb8e801233"
+          TAG = 'v1.0.0'
+          def api(method, path, body=None):
+              headers = {'Authorization': 'Bearer '+os.environ['GH_TOKEN'], 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', 'User-Agent': 'research-release'}
+              req = urllib.request.Request('https://api.github.com/repos/'+REPO+path, data=None if body is None else json.dumps(body).encode(), headers=headers, method=method)
+              try:
+                  with urllib.request.urlopen(req, timeout=45) as h: return json.load(h)
+              except urllib.error.HTTPError as e:
+                  if method == 'GET' and e.code == 404: return None
+                  raise RuntimeError('GitHub API '+method+' '+path+' failed: HTTP '+str(e.code)) from None
+          with urllib.request.urlopen('https://codeload.github.com/'+REPO+'/zip/'+TARGET, timeout=60) as h:
+              archive = zipfile.ZipFile(io.BytesIO(h.read()))
+          prefix = archive.namelist()[0].split('/')[0]+'/'
+          files = {n[len(prefix):]: archive.read(n) for n in archive.namelist() if n.startswith(prefix) and not n.endswith('/')}
+          assert len(files) == 101, 'Unexpected source archive file count'
+          manifest = list(csv.DictReader(io.StringIO(files['FILE_MANIFEST.csv'].decode('utf-8'))))
+          assert len(manifest) == 100
+          for r in manifest:
+              blob = files[r['relative_path']]
+              assert len(blob) == int(r['bytes']) and hashlib.sha256(blob).hexdigest() == r['sha256'], 'Checksum mismatch: '+r['relative_path']
+          meta = json.loads(files['.zenodo.json'])
+          assert meta['version'] == '1.0.0' and meta['upload_type'] == 'software' and meta['license'] == 'mit'
+          assert len(meta['creators']) == 1 and meta['creators'][0]['name'] == 'Zhang, Yu'
+          assert meta['creators'][0]['orcid'] == '0009-0005-2319-3655'
+          assert any(x['identifier'] == 'https://doi.org/10.5281/zenodo.23942296' for x in meta['related_identifiers'])
+          existing = api('GET', '/releases/tags/'+TAG)
+          if existing:
+              print('Release already exists: '+existing['html_url'])
+          else:
+              release = api('POST', '/releases', {'tag_name': TAG, 'target_commitish': TARGET, 'name': 'Analysis code v1.0.0', 'body': os.environ['RELEASE_BODY'], 'draft': False, 'prerelease': False, 'generate_release_notes': False, 'make_latest': 'true'})
+              print('Published release: '+release['html_url'])
+          print('Verified source commit: '+TARGET)
+          PY
